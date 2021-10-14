@@ -4,5 +4,4 @@
 
 
 ## for type script 
-typescriptlang.org
 https://www.typescriptlang.org/
