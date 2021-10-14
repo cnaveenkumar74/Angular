@@ -21,3 +21,5 @@ platformBrowserDynamic()
 //Printing today date and time
 console.log('Today Date and time:');
 console.log(new Date().toLocaleString());
+let t: Date = new Date();
+let x = t.getDate()+'-'+t.getMonth()+'-'+t.getFullYear()+' '+t.getHours()+':'+t.getMinutes();
