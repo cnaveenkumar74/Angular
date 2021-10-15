@@ -41,14 +41,22 @@ ${today.getDate()}-${
 }-${today.getFullYear()} ${today.getHours()}:${today.getMinutes()}`;
 console.log(finalFormat2);
 //Array(for each func) and arrow funciion
-let studentsMarks: Array<number | string | boolean> = ['410', 345, true, 450, 236, 'venkat', true];
+let studentsMarks: Array<number | string | boolean> = [
+  '410',
+  345,
+  true,
+  450,
+  236,
+  'venkat',
+  true,
+];
 //printing length
-console.log('number of elements in array : ', studentsMarks.length)
+console.log('number of elements in array : ', studentsMarks.length);
 //Using for each and arrow function
 //alerting when the index is 5.
-studentsMarks.forEach( (element:number | string | boolean, currentIndex) => {
-  console.log(`Current Element: ${element} and its index is ${currentIndex}` )
-  if(currentIndex == 5) {
-      alert("Hey buddy, ITs 5th index")
+studentsMarks.forEach((element: number | string | boolean, currentIndex) => {
+  console.log(`Current Element: ${element} and its index is ${currentIndex}`);
+  if (currentIndex == 5) {
+    alert('Hey buddy, ITs 5th index');
   }
-} )
+});
