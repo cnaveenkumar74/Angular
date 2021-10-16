@@ -73,3 +73,6 @@ let fil = a.filter((value) => {
   }
 });
 console.log(fil);
+//Using findIndex()
+let fin = a.findIndex((value) => value == 'd');
+console.log(fin);
