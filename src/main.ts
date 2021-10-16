@@ -61,3 +61,8 @@ studentsMarks.forEach((element: number | string | boolean, currentIndex) => {
   // }
 });
 //Array functions implementation
+let a:Array<string> = ['a','b','c','d','e'];
+a.forEach((value,index) => {
+  //printing value and index
+  console.log(value,index);
+})
