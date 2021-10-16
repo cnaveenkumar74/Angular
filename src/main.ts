@@ -32,6 +32,7 @@ let x =
   t.getHours() +
   ':' +
   t.getMinutes();
+
 //template literals
 let today: Date = new Date();
 let finalFormat2 = `
@@ -40,6 +41,7 @@ ${today.getDate()}-${
   today.getMonth() + 1
 }-${today.getFullYear()} ${today.getHours()}:${today.getMinutes()}`;
 console.log(finalFormat2);
+
 //Array(for each func) and arrow funciion
 let studentsMarks: Array<number | string | boolean> = [
   '410',
@@ -50,8 +52,10 @@ let studentsMarks: Array<number | string | boolean> = [
   'venkat',
   true,
 ];
+
 //printing length
 console.log('number of elements in array : ', studentsMarks.length);
+
 //Using for each and arrow function
 //alerting when the index is 5.
 studentsMarks.forEach((element: number | string | boolean, currentIndex) => {
@@ -60,12 +64,14 @@ studentsMarks.forEach((element: number | string | boolean, currentIndex) => {
   // //   alert('Hey buddy, ITs 5th index');
   // }
 });
+
 //Array functions implementation
 let a: Array<string> = ['a', 'b', 'c', 'd', 'e'];
 a.forEach((value, index) => {
   //printing value and index
   console.log(value, index);
 });
+
 //Using filter()
 let fil = a.filter((value) => {
   if (value == 'a' || value == 'b') {
@@ -73,6 +79,7 @@ let fil = a.filter((value) => {
   }
 });
 console.log(fil);
+
 //Using findIndex()
 let fin = a.findIndex((value) => value == 'd');
 console.log(fin);
