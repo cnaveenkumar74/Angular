@@ -56,7 +56,8 @@ console.log('number of elements in array : ', studentsMarks.length);
 //alerting when the index is 5.
 studentsMarks.forEach((element: number | string | boolean, currentIndex) => {
   console.log(`Current Element: ${element} and its index is ${currentIndex}`);
-  if (currentIndex == 5) {
-    alert('Hey buddy, ITs 5th index');
-  }
+  // if (currentIndex == 5) {
+  // //   alert('Hey buddy, ITs 5th index');
+  // }
 });
+//Array functions implementation
