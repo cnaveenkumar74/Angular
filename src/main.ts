@@ -61,8 +61,15 @@ studentsMarks.forEach((element: number | string | boolean, currentIndex) => {
   // }
 });
 //Array functions implementation
-let a:Array<string> = ['a','b','c','d','e'];
-a.forEach((value,index) => {
+let a: Array<string> = ['a', 'b', 'c', 'd', 'e'];
+a.forEach((value, index) => {
   //printing value and index
-  console.log(value,index);
-})
+  console.log(value, index);
+});
+//Using filter()
+let fil = a.filter((value) => {
+  if (value == 'a' || value == 'b') {
+    return value;
+  }
+});
+console.log(fil);
