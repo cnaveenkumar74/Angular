@@ -87,3 +87,12 @@ console.log(fin);
 //Using push()
 a.push(5);
 console.log(a);
+
+//using slice(begin,[end-1])
+console.log(a.slice(1, 4));
+
+//Using Map()
+
+let lo: Array<number> = [20, 42, 30, 9, 11];
+let lo1 = lo.map(Math.log);
+console.log(lo1);
