@@ -1,0 +1,24 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+.clock {
+  margin-top: 10%;
+  border: 2px solid transparent;
+  background-image: linear-gradient(to right, #f4df4eff, #fc766aff);
+  padding: 2%;
+  border-radius: 2vh;
+}
+#ti {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 3vh;
+  margin-left: 35%;
+}
+#app {
+  margin-top: 50%;
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 100;
+  color: blueviolet;
+}
