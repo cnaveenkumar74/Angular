@@ -19,3 +19,7 @@ https://www.typescriptlang.org/
 	9. push
 ### new
 used for instance or object creation. 
+
+### import
+importing a file and including in a ts file
+#### import './filename.extension';
