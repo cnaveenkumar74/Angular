@@ -19,7 +19,6 @@ function timer() {
       : '0' + (h - 12).toString();
   let ss = s < 10 ? '0' + s.toString() : s.toString();
   let am_pm = h < 12 ? 'AM' : 'PM';
-  document.getElementById('ti').innerHTML =
-    hs + ':' + ms + ':' + ss + ' ' + am_pm;
+  document.getElementById('ti').innerHTML = `${hs}:${ms}:${ss}  ${am_pm}`;
 }
 setInterval(timer);
