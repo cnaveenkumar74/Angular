@@ -17,3 +17,5 @@ https://www.typescriptlang.org/
 	7. slice
 	8. map
 	9. push
+### new
+used for instance or object creation. 
