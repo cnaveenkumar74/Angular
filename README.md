@@ -3,7 +3,7 @@
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-eurpxe)
 
 ## image
-<img src="https://github.com/cnaveenkumar74/Typescript-basics/blob/master/img.jpeg" width="300" height="600" />
+<img src="https://github.com/cnaveenkumar74/Typescript-basics/blob/master/img.jpeg" width="300" height="500" />
 
 ## for type script 
 https://www.typescriptlang.org/
